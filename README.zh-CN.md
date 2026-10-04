@@ -1,10 +1,12 @@
-# hello-langchain-doc
+# hello-agent-doc
 
 [English](./README.md) | 简体中文
 
-基于 VitePress、从初学者视角出发的 LangChain 入门与实践教程，支持中英文，默认语言为英文。使用稳定版 VitePress 1.6.4，支持本地全文搜索、明暗主题、章节导航与 Markdown 写作。
+基于 VitePress、从初学者视角出发的 AI Agent 入门与实践教程，支持中英文，默认语言为英文。使用稳定版 VitePress 1.6.4，支持本地全文搜索、明暗主题、章节导航与 Markdown 写作。
 
-文档项目 `hello-langchain-doc` 用于教程文章；实践代码计划独立放在同级 `hello-langchain` 项目中。
+主线使用 Python，逐步借助 LangChain、LangGraph 和 LangSmith 构建应用、编排流程与评估效果。从模型调用和文档问答开始，再引入工具与 Agent。基础模型调用和固定检索流程是前置能力，不自动等于 Agent。第一阶段聚焦带来源引用的文档助手、一个工具调用场景、基础评估和在线演示，复杂工作流后续再加入。
+
+文档项目 `hello-agent-doc` 用于教程文章；实践代码计划独立放在同级 `hello-agent` 项目中。
 
 ## 本地运行
 
@@ -24,7 +26,7 @@ npm run docs:build
 npm run docs:preview
 ```
 
-静态输出位于 `docs/.vitepress/dist`，可以部署到静态托管服务。如果部署在子路径（例如 GitHub Pages 的 `/hello-langchain-doc/`），需要在配置中设置对应的 `base`。
+静态输出位于 `docs/.vitepress/dist`，可以部署到静态托管服务。如果部署在子路径（例如 GitHub Pages 的 `/hello-agent-doc/`），需要在配置中设置对应的 `base`。
 
 ## 内容目录
 
@@ -50,7 +52,7 @@ docs/
 4. 正文优先使用相对链接；中文首页和导航链接以 `/zh/` 开头。共用图片使用 `/images/example.png` 引用。
 5. 执行 `npm run docs:build`，然后在预览中检查语言切换、链接与搜索。
 
-文章结构随主题决定：讲清问题、逐步实践、展示如何验证。涉及代码时说明运行环境与依赖版本。完整示例放在 `hello-langchain`，需要保证复现时链接到具体提交或版本。待代码仓库可用后，再增加示例代码导航入口。
+文章结构随主题决定：讲清问题、逐步实践、展示如何验证。涉及代码时说明运行环境与依赖版本。完整示例放在 `hello-agent`，需要保证复现时链接到具体提交或版本。待代码仓库可用后，再增加示例代码导航入口。
 
 语言切换保留当前页面路径，翻译手动维护，搜索按语言独立索引。默认语言仍为英文。最后更新时间来自 Git 提交历史。
 

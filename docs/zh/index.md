@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: hello-langchain-doc
-  text: LangChain 入门与实践
+  name: hello-agent-doc
+  text: AI Agent 入门与实践
   tagline: 从初学者视角出发，解释概念，动手验证，一篇一篇学会构建 AI 应用。
   actions:
     - theme: brand

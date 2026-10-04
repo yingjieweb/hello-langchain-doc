@@ -3,19 +3,19 @@ import { enTheme } from './en.mts'
 import { zhTheme } from './zh.mts'
 
 export default defineConfig({
-  title: 'hello-langchain-doc',
+  title: 'hello-agent-doc',
   lastUpdated: true,
   locales: {
     root: {
       label: 'English',
       lang: 'en',
-      description: 'A growing, practical LangChain tutorial for beginners.',
+      description: 'A growing, practical AI agent tutorial for beginners.',
       themeConfig: enTheme,
     },
     zh: {
       label: '简体中文',
       lang: 'zh-CN',
-      description: '一套从初学者视角出发、持续更新的 LangChain 入门与实践教程',
+      description: '一套从初学者视角出发、持续更新的 AI Agent 入门与实践教程',
       themeConfig: zhTheme,
     },
   },

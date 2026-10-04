@@ -1,10 +1,12 @@
-# hello-langchain-doc
+# hello-agent-doc
 
 English | [简体中文](./README.zh-CN.md)
 
-A growing, practical LangChain tutorial for beginners, built with VitePress. Available in English (default) and Simplified Chinese, with local full-text search, light and dark themes, chapter navigation, and Markdown authoring.
+A growing, practical AI agent tutorial for beginners, built with VitePress. Available in English (default) and Simplified Chinese, with local full-text search, light and dark themes, chapter navigation, and Markdown authoring.
 
-`hello-langchain-doc` contains the tutorial articles. Practice code is planned for a separate sibling project, `hello-langchain`.
+The learning path uses Python, LangChain, LangGraph, and LangSmith to build, orchestrate, and evaluate AI applications. Start with model calls and document Q&A, then introduce tools and agents. Basic model calls and fixed retrieval workflows are foundations, not automatically agents. The first milestone is a document assistant with source citations, one tool-calling scenario, basic evaluation, and an online demo; advanced workflows follow later.
+
+`hello-agent-doc` contains the tutorial articles. Practice code is planned for a separate sibling project, `hello-agent`.
 
 ## Getting started
 
@@ -24,7 +26,7 @@ npm run docs:build
 npm run docs:preview
 ```
 
-Deploy the static output in `docs/.vitepress/dist` to a static hosting service. For a subpath deployment, such as GitHub Pages at `/hello-langchain-doc/`, set the matching `base` in the VitePress configuration.
+Deploy the static output in `docs/.vitepress/dist` to a static hosting service. For a subpath deployment, such as GitHub Pages at `/hello-agent-doc/`, set the matching `base` in the VitePress configuration.
 
 ## Project structure
 
@@ -50,7 +52,7 @@ The site is one connected tutorial. Each article explains a clear topic and can 
 4. Prefer relative article links. Chinese homepage and navigation links must start with `/zh/`. Reference shared public images as `/images/example.png`.
 5. Run `npm run docs:build`, then check language switching, links, and search in the preview.
 
-Use a structure that fits the topic: explain the problem, walk through the example, and show how to verify the result. Include runtime and dependency versions where code is involved. Put complete runnable examples in `hello-langchain`, and link to a specific commit or version when reproducibility matters. Example-code navigation can be added once that repository is available.
+Use a structure that fits the topic: explain the problem, walk through the example, and show how to verify the result. Include runtime and dependency versions where code is involved. Put complete runnable examples in `hello-agent`, and link to a specific commit or version when reproducibility matters. Example-code navigation can be added once that repository is available.
 
 Language switching preserves the current page path. Translations are maintained manually, and search indexes are scoped to the current language. English remains the default. Last-updated dates come from Git history.
 

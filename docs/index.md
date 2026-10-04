@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: hello-langchain-doc
-  text: LangChain, from introduction to practice
+  name: hello-agent-doc
+  text: AI Agents, from introduction to practice
   tagline: A growing tutorial for beginners. Understand each concept, follow the examples, and build step by step.
   actions:
     - theme: brand

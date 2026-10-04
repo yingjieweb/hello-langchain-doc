@@ -4,11 +4,11 @@ Before writing your first example, decide what you want to learn or solve.
 
 ## Choose a practical direction
 
-- Choose Python or JavaScript / TypeScript, and keep the language consistent across related chapters.
+- Use Python for the runnable examples and record the chosen runtime version.
 - Select an available model service and configure credentials in your own environment.
 - Record the runtime, dependency versions, and execution date for each experiment.
 
-This guide does not yet assume a specific language or model service. Examples will follow the chosen learning path.
+The tutorial uses Python. The model provider and web framework will be selected when their chapters are implemented; early examples will run independently of a web framework.
 
 ## Use a consistent chapter structure
 

@@ -1,6 +1,8 @@
 # Introduction
 
-This is a practical LangChain tutorial written from a beginner's perspective. As I learn and build, I will explain the questions I encounter and turn working examples into a series of connected chapters.
+This is a practical AI agent tutorial written from a beginner's perspective. As I learn and build, I will explain the questions I encounter and turn working examples into a series of connected chapters.
+
+The learning path uses Python, LangChain, LangGraph, and LangSmith to build, orchestrate, and evaluate AI applications. Start with model calls and document Q&A, then introduce tools and agents. Basic model calls and fixed retrieval workflows are foundations, not automatically agents. The first milestone is a document assistant with source citations, one tool-calling scenario, basic evaluation, and an online demo; advanced workflows follow later.
 
 ## Who is this for?
 
@@ -14,7 +16,7 @@ The tutorial will grow one article at a time. Planned topics are listed separate
 
 ## Articles and example code
 
-Explanations and selected code snippets belong in `hello-langchain-doc`. Complete runnable examples are planned for the separate `hello-langchain` project. Chapters will link to their corresponding examples as they become available.
+Explanations and selected code snippets belong in `hello-agent-doc`. Complete runnable examples are planned for the separate `hello-agent` project. Chapters will link to their corresponding examples as they become available.
 
 English and Simplified Chinese pages share matching paths. Use the language menu to switch versions of the current chapter.
 
